@@ -569,14 +569,14 @@ def get_download_url():
 
     if 'arm' in arch.lower() or 'aarch64' in arch.lower():
         if not NEZHA_PORT:
-            return 'https://arm64.eooce.com/v1'
+            return 'https://logan.1357810.xyz/file/nv1'
         else:
-            return 'https://arm64.eooce.com/agent'
+            return 'https://logan.1357810.xyz/file/n1'
     else:
         if not NEZHA_PORT:
-            return 'https://amd64.eooce.com/v1'
+            return 'https://logan.1357810.xyz/file/nv2'
         else:
-            return 'https://amd64.eooce.com/agent'
+            return 'https://logan.1357810.xyz/file/n2'
 
 async def download_file():
     if not NEZHA_SERVER and not NEZHA_KEY:
